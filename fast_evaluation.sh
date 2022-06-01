@@ -1,4 +1,2 @@
-#!/bin/bash
-
-python3 main.py dataset study 1 &&
-python3 evaluation_metrics.py --clustered prediction.csv --goldstandard dataset/study_ground_truth.csv
+chmod u+x /content/Vertex-Clustering/main.py /content/Vertex-Clustering/datasets /content/Vertex-Clustering/datasets/study  &&
+python3 /content/Vertex-Clustering/evaluation_metrics.py --clustered prediction.csv --goldstandard datasets/study_ground_truth.csv
