@@ -1,3 +1,3 @@
-chmod u+x /content/Vertex-Clustering/main.py /content/Vertex-Clustering/datasets /content/Vertex-Clustering/datasets/study  &&
-python3 /content/Vertex-Clustering/evaluation_metrics.py --clustered prediction.csv --goldstandard datasets/study_ground_truth.csv
+chmod u+x /content/RBL22/main.py /content/RBL22/dataset /content/RBL22/dataset/study  &&
+python3 /content/RBL22/evaluation_metrics.py --clustered prediction.csv --goldstandard dataset/study_ground_truth.csv
 
